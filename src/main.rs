@@ -211,13 +211,13 @@ fn format_prayerbar(
             .as_str();
         } else if (index + 1) < times_vec.len() {
             *bar_text = format!(
-                "🕋 {} {}",
+                "🕌 {} {}",
                 times_vec[index + 1].0,
                 times_vec[index + 1].1.format(time_format)
             );
         } else {
             *bar_text = format!(
-                "🕋 {} {}",
+                "🕌 {} {}",
                 times_vec[0].0,
                 times_vec[0].1.format(time_format)
             );
